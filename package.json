@@ -1,0 +1,20 @@
+{
+  "name": "playreact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "babel": "babel",
+    "test": "node bin/dev",
+    "build": "rm -rf dist && mkdir dist && babel src -s -d dist && node bin/production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.24.1",
+    "webpack": "^3.4.1"
+  }
+}
