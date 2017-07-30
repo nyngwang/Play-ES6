@@ -1,5 +1,5 @@
 const test = msg => {
-    console.log(`Yoooooooooo man, mother fucker ${msg} is working!!!`);
+    console.log(`Hello ${msg}! Have a nice day!`);
 };
 
 export default test;

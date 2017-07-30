@@ -1,18 +1,24 @@
 {
-  "name": "playreact",
+  "name": "Play-ES6",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "description": "Practice ES6, babel, webpack.",
+  "main": "src/index.js",
   "scripts": {
     "webpack": "webpack",
-    "babel": "babel",
     "test": "node bin/dev",
-    "build": "rm -rf dist && mkdir dist && babel src -s -d dist && node bin/production"
+    "final": "node bin/production",
+    "build": "rm -rf dist && mkdir dist && webpack && node bin/production"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Ning Wang",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nyngwang/Play-ES6.git"
+  },
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.24.1",
+    "babel-loader": "^7.1.1",
     "babel-preset-env": "^1.6.0",
     "babel-register": "^6.24.1",
     "webpack": "^3.4.1"

@@ -1,3 +1,12 @@
 import test from "./test";
 
-test("BAAAAAAAAAAABEL");
+test("ånonymous");
+
+class Test {
+    foo() {
+        console.log("TESTING ES6");
+    }
+};
+
+let bar = new Test();
+bar.foo();
